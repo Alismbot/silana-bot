@@ -17,7 +17,7 @@ if (Buffer.isBuffer(e)) stiker = e
 if (stiker) conn.sendFile(m.chat, stiker, 'wm.webp', '', m, false, { asSticker: true })
 else throw '*راسل صاحب البوت هناك مشكلة\n instagram.com/noureddine_ouafy*'
 }}
-handler.help = ['wm']
+handler.help = ['ali']
 handler.tags = ['sticker']
 handler.command = /^take|wm$/i
 export default handler
